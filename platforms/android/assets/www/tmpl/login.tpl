@@ -1,5 +1,36 @@
-Ich bin die Loginseite und hier kommt nachher mein layout von Theresa rein
 
+<header>
+             
+		<div class="h3 w100"></div>
+
+			 <img src="img/dabkreis.jpg" class="dabkreis"/>
+			</button>
+	
+	</header>
+
+	
+
+	<main>
+		
+		<button class="logintext">Benutzername</button>
+		<div>
+		 <button class="loginbutton pageBtn" data-page="menu" data-animate="ease" data-direction="left"></button>
+		</div>
+
+		<button class="logintext">Passwort</button>
+		<div>
+			<button class="loginbutton pageBtn" data-page="menu" data-animate="ease" data-direction="left"></button>
+		 </div>
+
+	</main>
+	
+	
+	<footer>
+
+		<button class="language foreground">English</button>
+		<img src="img/footerlogin.png" class="background margintoplogin">
+
+	</footer>
 
 
 

@@ -1,35 +1,66 @@
 <header>
              
-	<button class="w100 h25">
-		<img src="img/dablogo.jpg" class="dablogo"/>
-	</button>
+            <button >
+                <img src="img/dablogo.jpg" class="dablogo2"/>
+            </button>
+        
+        </header>
+   
+        
 
-</header>
+        <main>
+                
+            <button class="w100 h4 headline"></button>
+            <button class="headlinetext">Heutige Veranstaltungen</button>
+            
+        <br>
+            
+            <button class="optionbutton">Stundenplan</button>
 
+            <hr> 
 
+            <button class="news">Für heute sind keine Termine angesetzt!</button>
 
-<main>
+        <br>
 
-	<button class="w100 h25 button2"></button>
+          <button class="w100 h4 headline"></button>
+          <button class="headlinetext">Neue Nachrichten</button>
+            
+        <br>
 
-	<button class="w100 h30 button1"></button>
+             <button class="optionbutton w60 h10">Archiv</button>
 
-	<button class="w100 h30 button4">Willkommen!</button>
+            <hr>
 
-<div>
-	<button class="button3">
-		<img src="img/pfeil.png">
-	</button>
-</div>
-	
+            <button class="news">Sie haben keine neuen Nachrichten!</button>
 
-</main>
+        <br>
 
+                <div class="h10 w100"></div>
+                
+                    <button class="w74 h4 menubutton foreground"></button>
+                    <button class="headlinetext">Veranstaltungen</button>
 
-<footer></footer>
+                <div class="h10 w100"></div>
 
+                    <button class="w74 h4 menubutton foreground"></button>
+                    <button class="headlinetext">Prüfungen</button>
 
+                <div class="h10 w100"></div>
 
+                    <button class="w74 h4 menubutton foreground"></button>
+                    <button class="headlinetext">Service / Praktikum</button>
+        
+    
+
+        </main>
+        
+        
+        <footer>
+
+            <img src="img/footermenu.png" class="background margintopmenu">
+
+        </footer>
 
 
 

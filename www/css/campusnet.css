@@ -5,6 +5,8 @@
 .h25 {height: 25vh}
 .h30 {height: 30vh}
 .h40 {height: 40vh}
+.h50 {height: 50vh}
+
 .w10 {width: 10vw}
 .w60 {width: 60vw}
 .w74 {width: 74vw}
@@ -15,6 +17,7 @@ body {
     width: 100%;
     margin: 0;
 }
+
 
 button {
     background: white;
@@ -28,52 +31,39 @@ div {
 
 /* -----------------Willkommen------------------- */
 
-.button1 {
-    background-color: #DF0174;
-    transform: skewY(-8deg);
-    margin-top: 10vh;
-    z-index: 2;
-    position: absolute;
-}
-
-.button2 {
-    background-color: #E58CAB;
-    transform: skewY(12deg);
-    margin-top: 14vh;
-    z-index: 1;
-    position: absolute;
-}
-
-.button3 {
-    background-color: #DF0174;
-    border-radius: 50%;
-    height: 13vw;
-    width: 13vw;
-    margin-top: 48vh;
-}
-
-.button3 img {
-    height: 45%;
-    width: 45%;
-}
-
-.button4 {
-    z-index: 3;
-    background-color: transparent;
+.dablogo {
+    max-width: 70vw;
+    height: auto;
     margin-top: 8vh;
-    position: absolute;
+}
+
+.button1 {
+    background-color: transparent;
+    margin-top: 4vh;
     color: white;
     font-size: 5vh;
     font-family: PT Sans;
     font-weight: bold;
+    text-align: center;
+    background-image: url(../img/startbild.png);
+    background-size: 100% 100%;
 }
+.button1 img {
+    max-width: 100vw;
+}
+
+.button2 {
+    text-align: center;
+    margin-top: 2vh;
+}
+
+
 
 /* -----------------Login------------------- */
 
-.dablogo {
-    max-width: 80vw;
-    max-height: 10vh;
-    min-height: 10vh;
+.dabkreis {
+    max-width: 20vw;
+    height: auto;
     margin-top: 8vh;
 }
 
@@ -119,7 +109,6 @@ div {
 footer img{
     max-width: 100vw;
     height: auto;
-    position: fixed;
 }
 
 .margintoplogin {
@@ -129,6 +118,8 @@ footer img{
 .margintopmenu {
     margin-top: -10vh;
 }
+
+
 /* -------------Meldungen---------------------- */
 
 .dablogo2 {
@@ -141,11 +132,10 @@ footer img{
     background-color: #DF0174; 
     margin-top: 3vh;
     z-index: 1;
-    position: absolute;
 }
 
 .headlinetext {
-    background-color: transparent;
+    background-color: red;
     text-align: left;
     margin-left: 6vw;
     color: white;
@@ -153,15 +143,15 @@ footer img{
     font-family: PT Sans;
     font-weight: bold;
     z-index: 3;
-    position: absolute;
-    margin-top: 3vh;
+    /* position: absolute; */
+
 }
 
 .optionbutton {
     width: 20vw;
     height: 4vh;
-    margin-left: 73vw;
-    margin-top: 6vh;
+    margin-left: 64vw;
+    margin-top: 2vh;
     background-color: #E58CAB;
     color: white;
     font-size: 1.7vh;

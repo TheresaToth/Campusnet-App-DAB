@@ -1,32 +1,21 @@
-<header>
-             
-	<button class="w100 h25">
-		<img src="img/dablogo.jpg" class="dablogo"/>
-	</button>
 
-</header>
-
-
-
-<main>
-
-	<button class="w100 h25 button2"></button>
-
-	<button class="w100 h30 button1"></button>
-
-	<button class="w100 h30 button4">Willkommen!</button>
-
-<div>
-	<button class="pageBtn button3" data-page="login" data-animate="ease" data-direction="left" >
-		<img src="img/pfeil.png">
-	</button>
-</div>
 	
+	<div>
+		<img src="img/dablogo.jpg" class="w100 h25 dablogo"/>
+	</div>
 
-</main>
 
 
-<footer></footer>
+	
+	<button class="w100 h50 button1">
+	Willkommen!
+	</button>
+
+
+	<button class="pageBtn button2 h4" data-page="login" data-animate="ease" data-direction="left" >
+		<img src="img/go.png" class="h10">
+	</button>
+
 
 
 
